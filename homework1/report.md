@@ -61,10 +61,13 @@ int main() {
 ### 測試案例
 - $A(0, 0) = 1$
 <img width="410" height="237" alt="image" src="https://github.com/user-attachments/assets/39546ef8-0f3c-4e4f-9255-c6b02eb7c1ba" />
+
 - $A(1, 1) = 3$
 <img width="371" height="234" alt="image" src="https://github.com/user-attachments/assets/f321b6df-ef6b-4af4-ac88-df2f18e59a01" />
+
 - $A(2, 1) = 5$
 <img width="405" height="228" alt="image" src="https://github.com/user-attachments/assets/60fe8001-509a-40fe-b3c3-62af47076dc9" />
+
 ### 驗證
 對小值 \( m, n \leq 2 \) 測試，結果與手動計算一致，證明程式正確性。
 
