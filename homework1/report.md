@@ -175,7 +175,11 @@ int main() {
 
 ### 測試案例
 - \( S = "ab" \): \( \{\{\}, \{a\}, \{b\}, \{a, b\}\} \)
+<img width="577" height="251" alt="image" src="https://github.com/user-attachments/assets/afe5f035-d71c-403f-ac71-612186231e96" />
+
 - \( S = "abc" \): \( \{\{\}, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a, b, c\}\} \)
+<img width="962" height="230" alt="image" src="https://github.com/user-attachments/assets/900da45c-76bd-4938-96ee-bac6749c3bf7" />
+
 
 #### 驗證
 手動檢查子集數和內容，與數學定義一致，程式輸出按字典序排序，符合預期。
