@@ -59,7 +59,7 @@ public:
 
     friend std::ostream& operator<<(std::ostream& os, const Polynomial& poly);
     friend std::istream& operator>>(std::istream& is, Polynomial& poly);
-};
+};ˋˋˋ
 
 #endif
 主程式檔：main.cpp
