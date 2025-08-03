@@ -1,4 +1,4 @@
-# 41143263
+# 41143221
 
 作業二
 
@@ -11,8 +11,6 @@
 - 透過重載 `<<` 和 `>>` 運算子實現多項式的輸入和輸出。
 
 多項式以一組有序對 \( \langle e_i, a_i \rangle \) 表示，其中 \( a_i \) 是非零浮點係數，\( e_i \) 是非負整數指數。
-
-報告完成日期與時間：2025年8月3日 下午2:59 CST。
 
 ## 解題策略
 
@@ -38,32 +36,9 @@
 
 以下為主要程式碼：
 
-### 標頭檔：`Header.h`
+### 主程式檔：main.cpp
 ```cpp
-#ifndef HEADER_H
-#define HEADER_H
-
-#include <vector>
 #include <iostream>
-#include <chrono>
-
-class Polynomial {
-private:
-    std::vector<std::pair<float, int>> termArray;
-
-public:
-    Polynomial();
-    Polynomial Add(const Polynomial& poly) const;
-    Polynomial Mult(const Polynomial& poly) const;
-    float Eval(float x) const;
-
-    friend std::ostream& operator<<(std::ostream& os, const Polynomial& poly);
-    friend std::istream& operator>>(std::istream& is, Polynomial& poly);
-};ˋˋˋ
-
-#endif
-主程式檔：main.cpp
-cpp#include <iostream>
 #include <vector>
 #include <cmath>
 #include <chrono>
@@ -184,8 +159,9 @@ int main() {
     cout << "Mult operation took " << durationMult.count() << " seconds.\n";
 
     return 0;
-}
-效能分析
+}```cpp
+
+## 效能分析
 
 時間複雜度：
 
