@@ -185,7 +185,7 @@ Eval：( O(n) )，依賴項數進行線性計算。
 ```shell
 $ g++ -std=c++17 -o polynomial main.cpp
 $ ./polynomial
-ˋˋˋ
+```
 ### 結論
 
 程式能正確計算多項式的加法、乘法和評估結果。
