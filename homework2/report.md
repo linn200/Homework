@@ -183,7 +183,11 @@ int main() {
 | 測試二   | (1x^1, 1x^1)            | 3         | 6                   | 6                   | 9                   | 9                   |
 | 測試三   | (2x^2 + 1x^0, 3x^2)     | 1         | 6                   | 6                   | 9                   | 9                   |
 <img width="339" height="216" alt="image" src="https://github.com/user-attachments/assets/c0affab3-46f1-48ea-b47f-32a1fdc4a3af" />
+
+
 <img width="315" height="220" alt="image" src="https://github.com/user-attachments/assets/d3f47652-4279-47b5-8f68-3e4f73b7fb3d" />
+
+
 <img width="324" height="233" alt="image" src="https://github.com/user-attachments/assets/9453ff25-b0e9-4168-9eba-8cf8b1633879" />
 
 ### 編譯與執行指令
