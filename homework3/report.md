@@ -326,9 +326,13 @@ int main() {
 
 | 測試案例 | 輸入參數 (p1, p2)      | 輸入 x 值 | 預期輸出 (加法 Eval) | 實際輸出 (加法 Eval) | 預期輸出 (乘法 Eval) | 實際輸出 (乘法 Eval) |
 |----------|-------------------------|-----------|-----------------------|-----------------------|-----------------------|-----------------------|
-| 測試一   | (3x^3, 2x^2)            | 2         | 28.0                  | 28.0                  | 36.0                  | 36.0                  |
+| 測試一   | (3x^3, 2x^2)            | 2         | 32.0                  | 32.0                  | 192.0                  | 192.0                  |
 | 測試二   | (4x^1, 2x^0)            | 3         | 14.0                  | 14.0                   | 24.0                  | 24.0                  |
 | 測試三   | (5x^2 + 2x^1, 3x^1)     | 1         | 10.0                  | 10.0                  | 21.0                  | 21.0                  |
+<img width="526" height="337" alt="image" src="https://github.com/user-attachments/assets/aa462fdb-edd7-4668-bd46-3f939186b454" />
+
+<img width="519" height="343" alt="image" src="https://github.com/user-attachments/assets/6ae5dbe5-ed63-455e-ad69-90d56b76908c" />
+
 <img width="527" height="367" alt="image" src="https://github.com/user-attachments/assets/5b554ae5-6ab6-41e6-b2fe-61ca51511730" />
 
 ### 編譯與執行指令
